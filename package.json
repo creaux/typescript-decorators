@@ -1,24 +1,10 @@
 {
-  "name": "typescript-decorators",
-  "version": "1.0.0",
-  "description": "How typescript decorators are working.",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
   "jspm": {
     "directories": {
-      "baseURL": "dev",
-      "packages": "dev/packages"
+      "packages": "packages"
     },
     "devDependencies": {
       "typescript": "npm:typescript@^1.6.2"
     }
-  },
-  "devDependencies": {
-    "express": "^4.13.3"
   }
 }
